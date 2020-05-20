@@ -37,13 +37,18 @@ namespace WebApplication21.Controllers
             
 
         }
+        [Route("api/ajax")]
+        public string getAjax(string imagelink,string username)
+        {//avelacnel databaseum
+            return imagelink;
+        }
+
         public IActionResult Login()
         {
             return View();
         }
+
         [HttpPost]
-
-
         public IActionResult Login(string Email, string Password)
         {
             bool t = db.Users.Any(x => x.Email == Email && x.Password == Password);
@@ -52,7 +57,13 @@ namespace WebApplication21.Controllers
            
 
         }
+
         public IActionResult UserPage()
+        {
+            return View();
+        }
+
+        public IActionResult ProfileSettings()
         {
             return View();
         }

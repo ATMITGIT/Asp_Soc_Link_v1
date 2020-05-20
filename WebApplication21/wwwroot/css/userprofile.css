@@ -1,0 +1,113 @@
+﻿*,
+*:before,
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+    *, *:before, *:after {
+        -moz-box-sizing: border-box;
+        -webkit-box-sizing: border-box;
+    }
+
+nav, footer, header, aside {
+    display: block;
+}
+
+input, button, textarea {
+    font-family: inherit;
+}
+
+ul, li {
+    list-style: none;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: inherit;
+    font-weight: 400;
+}
+
+p {
+    margin: 0;
+}
+
+#block {
+    position: absolute;
+    position: fixed;
+    bottom: -30px;
+    display: none;
+    background-color: white;
+    margin: 0;
+}
+
+#insta15 {
+    display: none;
+    position: absolute;
+    position: fixed;
+    bottom: -30px;
+    display: none;
+    background-color: white;
+    margin: 0;
+}
+
+.btn {
+    padding: 1% 11%;
+    background-color: #007bff;
+    color: white;
+}
+
+    .btn:hover {
+        color: white;
+    }
+
+.btn1 {
+    padding: 1% 14% 1% 12%;
+}
+
+.text1 {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.text2 {
+    font-size: 20px;
+}
+
+.text3 {
+    font-size: 15px;
+}
+
+.forms {
+    width: 45%;
+    border-radius: 10px 10px 10px 10px;
+}
+
+.slider {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    bottom: -10%;
+    overflow: hidden;
+    background-color: white;
+    color: black;
+    z-index: 1;
+}
+
+
+
+.span {
+    position: absolute;
+    background-color: grey;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    right: -10px;
+    top: 10px;
+    display: none;
+}
+
+
+#slider {
+    display: none;
+}
